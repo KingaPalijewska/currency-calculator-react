@@ -15,4 +15,15 @@ function App() {
             currency,
         });
     }
+
+    return (
+        <div className="app">
+            <Form
+                result={result}
+                calculateResult={calculateResult}
+            />
+        </div>
+    );
 }
+
+export default App;
