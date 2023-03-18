@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { currencies } from "../currencies";
 import { Result } from "./Result";
-import ".style.css";
+import "./style.css";
 
 export const Form = ({ calculateResult, result }) => {
-  const [currency, setCurrncy] = useState(currencies[0].short);
+  const [currency, setCurrency] = useState(currencies[0].short);
   const [amount, setAmount] = useState("");
 
   const onSubmit = (event) => {
@@ -41,7 +41,7 @@ export const Form = ({ calculateResult, result }) => {
           <select
             className="form__field"
             value={currency}
-            onChange={({ targt }) => setCurrency(target.value)}
+            onChange={({ target }) => setCurrency(target.value)}
           >
             {currencies.map((currency => (
               <option
@@ -56,13 +56,12 @@ export const Form = ({ calculateResult, result }) => {
       </p>
       <p>
         <button className="form__button">Przelicz !</button>
-
       </p>
       <p className="form__info">
         Kursy pochodzą ze strony nb.pl z Tabeli nr 016/A/NBP/2023 z dnia 2023-01-24
       </p>
-      <Result result={result}/>
-       </form>
+      <Result result={result} />
+    </form>
 
   );
 };

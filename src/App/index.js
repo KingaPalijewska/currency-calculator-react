@@ -5,7 +5,7 @@ import { currencies } from './currencies';
 
 function App() {
 
-    const [result, setresult] = useState();
+    const [result, setResult] = useState();
 
     const calculateResult = (currency, amount) => {
         const rate = currencies
