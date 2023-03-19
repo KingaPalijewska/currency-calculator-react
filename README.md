@@ -1,5 +1,5 @@
 # Currency calculator in React.js
-![Money](Animation.gif)
+![Money](public/Animation.gif)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Description
