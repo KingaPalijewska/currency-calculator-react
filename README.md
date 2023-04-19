@@ -12,7 +12,7 @@ https://kingapalijewska.github.io/currency-calculator-react/
 - HTML
 - CSS 
 - JavaScript
-- BEM convention
+- Styled-components
 - ES6+
 - Node.js
 - React
