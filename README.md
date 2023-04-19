@@ -16,6 +16,7 @@ https://kingapalijewska.github.io/currency-calculator-react/
 - ES6+
 - Node.js
 - React
+- customs hook
 
 ## Available Scripts
 
