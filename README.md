@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Description
-This is a currency calculator for three different currencies: USD, EURO, GBP. Please take a look at demo.
+This is a currency calculator for different currencies. Please take a look at demo.
 
 ## Demo 
 https://kingapalijewska.github.io/currency-calculator-react/
@@ -17,6 +17,7 @@ https://kingapalijewska.github.io/currency-calculator-react/
 - Node.js
 - React
 - customs hook
+- Connecting with API
 
 ## Available Scripts
 
